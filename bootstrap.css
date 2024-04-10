@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: blue;
+    padding-top: 20px;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li {
+    color: gray;
+    list-style-type: none;
+}
+.ikincihisse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 250px;
+    height: 20px;
+    border-radius: 6px;
+    text-align: center;
+    background-image: linear-gradient(  rgb(221, 15, 176),rgb(106, 16, 223),rgb(131, 17, 125) );
+}
+.middle{
+ 
+    padding-top: 20px;
+    color: rgb(90, 83, 83);
+    font-size: 30px;
+    text-align: start;
+}
+.multicolour{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: start;
+    font-size: 60px;
+    background-image: linear-gradient( indigo , blue , rgb(219, 6, 41) );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.buton{
+    
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.one {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+
+.two {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.two:hover{
+    background-color:rgb(46, 44, 44); 
+    color: white;
+    border: 2px solid rgb(46, 44, 44);
+ }
+
+.foto{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gradient{
+width: 440px;
+height:430px;
+background-image: linear-gradient( indigo , blue , rgb(219, 6, 41) );
+border-radius: 50px;
+position: relative;
+ }
+
+.garabala{
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+ }
+
+.gradient div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.about{
+    padding-top: 30px;
+    font-size: 40px;
+    background-image: linear-gradient( indigo , blue , rgb(219, 6, 41) );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.txt{
+    padding-top: 20px;
+    color: rgb(90, 83, 83);
+    font-size: 25px;
+    font-family:sans-serif;
+  
+}
+.metn{
+    padding-top: 30px;
+    color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ikon { 
+    padding: 30px;
+
+}
+
+.ikon .bi-twitter{
+    width: auto;
+    height: auto;
+    background: -webkit-linear-gradient(315deg,#1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ikon .bi-github{
+    width: auto;
+    height: auto;
+    background: -webkit-linear-gradient(315deg,#1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ikon .bi-linkedin{
+    width: auto;
+    height: auto;
+    background: -webkit-linear-gradient(315deg,#1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
